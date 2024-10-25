@@ -1,9 +1,10 @@
-
 body{
     background: linear-gradient(90deg,#bfff00 40%, #066eff 45%, #ff0000 80%);
     margin: 0 auto;
     padding: 0;
 }
+
+/*          Header          */
 header{
     background: #00285f;
     display: grid;
@@ -23,9 +24,28 @@ header{
 .header-menu li a{
     color: #fff;
 }
-.logo-cont{
-    width: 1000px;
+header .logo-cont{
+    width: 2.8em;
 }
-.logoJMS{
-    width: 5%;
+header .logoJMS{
+    width: 100%;
+}
+
+/*            Principio               */
+.principio div{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+}
+.principio .logo-cont{
+    width: 30%;
+    border-radius: 40%;
+    height: auto;
+    background-color: #00285f;
+    top: 200px;
+}
+.principio .logoJMS{
+    border-radius: 40%;
+    height: auto;
+    width: 100%;
 }
