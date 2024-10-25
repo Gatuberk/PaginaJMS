@@ -1,0 +1,31 @@
+
+body{
+    background: linear-gradient(90deg,#bfff00 40%, #066eff 45%, #ff0000 80%);
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    background: #00285f;
+    display: grid;
+    padding: 0.5%;
+    grid-template-columns: 5% 3fr;
+}
+.header-menu{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+}
+.header-menu li{ 
+    padding: 10px;
+}
+.header-menu li a{
+    color: #fff;
+}
+.logo-cont{
+    width: 1000px;
+}
+.logoJMS{
+    width: 5%;
+}
