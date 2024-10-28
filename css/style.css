@@ -1,51 +1,70 @@
 body{
-    background: linear-gradient(90deg,#bfff00 40%, #066eff 45%, #ff0000 80%);
     margin: 0 auto;
     padding: 0;
+    font-size: 20px;
+    background: yellow;
+}
+*::selection{
+    background: #000000;
+    color: #ffffff;
+    
 }
 
 /*          Header          */
 header{
-    background: #00285f;
+    background: rgb(213, 213, 0);
     display: grid;
     padding: 0.5%;
     grid-template-columns: 5% 3fr;
+    border-bottom: 3px #00285f solid;
+    position: sticky;
+    top: 0;
 }
 .header-menu{
     margin: 0;
     list-style-type: none;
     display: flex;
     padding: 5px;
+    vertical-align: middle;
     justify-content: end;
 }
 .header-menu li{ 
+    border-top: 3px #00285f solid;
+    border-bottom: 3px #00285f solid;
     padding: 10px;
 }
+.header-menu-primero{
+    border-left: 3px #00285f;
+}
+.header-menu-ultimo{
+    border-right: #00285f;
+}
 .header-menu li a{
-    color: #fff;
+    color: #00285f;
+    font-weight: 600;
 }
 header .logo-cont{
     width: 2.8em;
+    margin: auto;
+    background: #00285f;
+    border: #00285f;
+    border-radius: 50%;
 }
 header .logoJMS{
     width: 100%;
+    margin: auto;
 }
 
 /*            Principio               */
-.principio div{
-    display: grid;
-    grid-template-columns: auto;
-    background-color: black;
-}
 .principio .logo-cont{
     width: 30%;
-    border-radius: 40%;
+    border-radius: 2000px;
     height: auto;
-    background-color: #00285f;
-    top: 200px;
+    margin: auto;
 }
 .principio .logoJMS{
     border-radius: 40%;
     height: auto;
     width: 100%;
+    margin: 0 auto;
 }
