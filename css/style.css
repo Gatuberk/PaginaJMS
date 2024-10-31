@@ -1,15 +1,31 @@
 body{
+<<<<<<< Updated upstream
     background: linear-gradient(90deg,#bfff00 40%, #066eff 45%, #ff0000 80%);
     margin: 0 auto;
     padding: 0;
 }
 
+=======
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    background: yellow;
+}
+>>>>>>> Stashed changes
 /*          Header          */
 header{
     background: #00285f;
     display: grid;
     padding: 0.5%;
+<<<<<<< Updated upstream
     grid-template-columns: 5% 3fr;
+=======
+    grid-template-columns: 0.5fr 3fr;
+    border-bottom: 5px #cf0000 solid;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+>>>>>>> Stashed changes
 }
 .header-menu{
     margin: 0;
@@ -18,19 +34,47 @@ header{
     padding: 5px;
     justify-content: end;
 }
+<<<<<<< Updated upstream
 .header-menu li{ 
+=======
+.header-menu li{
+    border-top: 3px #cf0000 solid;
+    border-bottom: 3px #cf0000 solid;
+>>>>>>> Stashed changes
     padding: 10px;
+    padding-top: 15px;
 }
+<<<<<<< Updated upstream
 .header-menu li a{
     color: #fff;
 }
 header .logo-cont{
     width: 2.8em;
+=======
+.header-menu-primero{
+    border-left: 3px #cf0000 solid;
+}
+.header-menu-ultimo{
+    border-right: 3px #cf0000 solid;
+}
+.header-menu li a{
+    color: #ffff00;
+    padding-top: 50px;
+    font-weight: 600;
+}
+header .logo-cont{
+    width: 2.8em;
+    margin: auto;
+    background: #0049af;
+    border: #cf0000 4px solid;
+    border-radius: 50%;
+>>>>>>> Stashed changes
 }
 header .logoJMS{
     width: 100%;
 }
 
+<<<<<<< Updated upstream
 /*            Principio               */
 .principio div{
     display: grid;
@@ -43,9 +87,93 @@ header .logoJMS{
     height: auto;
     background-color: #00285f;
     top: 200px;
+=======
+/*            banner               */
+.banner{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+>>>>>>> Stashed changes
 }
-.principio .logoJMS{
-    border-radius: 40%;
-    height: auto;
+
+.banner ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+    /*      Slider        */
+
+.slider{
     width: 100%;
+<<<<<<< Updated upstream
+=======
+    height: auto;
+}
+.slider2{
+    width: 50%!important;
+}
+.sliderTexto{
+    color: white;
+    z-index: 1;
+    width: 20%;
+    height: calc(203px *2);
+    background-color: #00285f;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+}
+.sliderTexto p{
+    width: 70%;
+}
+.slider .slider-contendedor1{
+    display: flex;
+    animation: movimientoHorizontalDerecha 20s linear infinite;
+    width: calc(200px * 20);
+    list-style: none;
+}
+.slider .slider-contendedor2{
+    display: flex;
+    animation: movimientoHorizontalIzquierda 20s linear infinite;
+    width: calc(200px * 20);
+    list-style: none;
+}
+.slider .slide{
+    width: 200px;
+    height: 200px;
+    border-bottom: #cf0000 3px solid;
+    border-left: #cf0000 3px solid;
+}
+.slider .slide img{
+    width: 100%;
+    height: 200px;
+}
+
+/**********Slider division**********************/
+
+.sliderDivision{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/****************Animaciones****************/
+
+@keyframes movimientoHorizontalDerecha {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-200px*10));
+    }
+}
+
+
+@keyframes movimientoHorizontalIzquierda {
+    0% {
+        transform: translateX(calc(-200px*10));
+    }
+    100% {
+        transform: translateX(0);
+    }
+>>>>>>> Stashed changes
 }
