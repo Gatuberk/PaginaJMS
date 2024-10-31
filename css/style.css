@@ -32,13 +32,13 @@ header .logoJMS{
     width: 100%;
 }
 
-/*            Principio               */
-.principio div{
+/*            banner               */
+.banner div{
     display: grid;
     grid-template-columns: auto;
     background-color: black;
 }
-.principio .logo-cont{
+.banner .logo-cont{
     width: 30%;
     border-radius: 40%;
     height: auto;
